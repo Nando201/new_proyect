@@ -46,6 +46,30 @@ li a{
     text-decoration: none;
 }
 
+#realTimeTrack{
+    display: flex;
+    justify-content: space-around;
+}
+
+#realTimeTrack h2{
+    font-size: 80px;
+}
+
+.boton{
+    padding: 10px;
+    font-family: "Dosis", sans-serif;
+    color: black;
+    border-radius: 5px;
+    margin: 0px 5px;
+    background-color: transparent;
+    width: 70px;
+}
+
+.boton:active{
+    background-color: #002B5B;
+    color: white
+}
+
 #goals-track{
     display: flex;
     justify-content: space-evenly;
